@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "//terraform-aws-docker-instance"
+    source = "ofidan/docker-instance/aws"
     key_name = "clarusway"
 }
 ```
