@@ -14,5 +14,6 @@ provider "aws" {
 
 module "docker_instance" {
     source = "//terraform-aws-docker-instance"
+    key_name = "clarusway"
 }
 ```
